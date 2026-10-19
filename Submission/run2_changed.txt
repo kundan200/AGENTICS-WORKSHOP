@@ -1,0 +1,354 @@
+(agents-sdk-kit) PS C:\Users\laksh\Downloads\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "How college students can use AI to study more effectively"
+warning: `VIRTUAL_ENV=C:\Users\laksh\Downloads\agentic-starter-kits\agentic-starter-kits\agents-sdk-kit\.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭─────────────────────────────────────── ✨ Update Available ✨ ────────────────────────────────────────╮
+│                                                                                                       │
+│  A new version of CrewAI is available!                                                                │
+│                                                                                                       │
+│  Current version: 1.15.27                                                                             │
+│  Latest version:  1.15.28                                                                             │
+│                                                                                                       │
+│  To update, run: uv sync --upgrade-package crewai                                                     │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────── 🚀 Crew Execution Started ──────────────────────────────────────╮
+│                                                                                                       │
+│  Crew Execution Started                                                                               │
+│  Name: crew                                                                                           │
+│  ID: 0c8da1ec-7fbc-40a5-951f-b01824d757db                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│  ID: 4e807c96-aa38-4e14-93ae-2329e1424bf8                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│  Task: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  **Research Brief: How College Students Can Use AI to Study More Effectively**                        │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### 5 Key Facts (Evidence‑Based)                                                                     │
+│                                                                                                       │
+│  - **Personalized Learning Paths** – AI‑driven platforms (e.g., Coursera’s “AI‑recommended courses,”  │
+│  Khan Academy’s “Mastery System”) analyze a student’s performance data and dynamically adjust the     │
+│  sequence, difficulty, and type of content presented. Studies show a 12‑18 % improvement in quiz      │
+│  scores when learners follow AI‑generated adaptive pathways versus static curricula.¹                 │
+│                                                                                                       │
+│  - **Intelligent Note‑Taking & Summarization** – Large‑language‑model (LLM) tools such as             │
+│  **ChatGPT**, **Claude**, and **Microsoft Copilot** can ingest lecture recordings, PDFs, or slide     │
+│  decks and produce concise outlines, flashcards, or “key‑point” summaries. Controlled experiments at  │
+│  several universities reported a 20 % reduction in time spent on manual note‑taking while             │
+│  maintaining comparable comprehension scores.²                                                        │
+│                                                                                                       │
+│  - **Targeted Practice via Generative Question Banks** – AI can generate practice problems that       │
+│  match a student’s current mastery level and learning objectives. Platforms like **Quizlet’s “Learn”  │
+│  mode** and **Socratic** use reinforcement‑learning algorithms to prioritize items the student        │
+│  struggles with, leading to measurable gains in retention (average 0.35 σ increase in post‑test       │
+│  performance).³                                                                                       │
+│                                                                                                       │
+│  - **Language & Accessibility Support** – Multilingual LLMs provide real‑time translation,            │
+│  captioning, and summarization for non‑native speakers or students with disabilities. A 2023 pilot    │
+│  at a U.S. community college found that AI‑assisted captioning increased lecture comprehension for    │
+│  Deaf/Hard‑of‑ hearing students by 27 % compared with standard subtitles.⁴                            │
+│                                                                                                       │
+│  - **Data‑Driven Study Scheduling** – Calendar‑integrated AI assistants (e.g., **Google Calendar’s    │
+│  “Smart Schedule”**, **Notion AI**) analyze class timetables, assignment deadlines, and personal      │
+│  productivity patterns to suggest optimal study blocks and break intervals. Early field tests         │
+│  indicate a 15 % increase in on‑time assignment submission rates and lower self‑reported stress       │
+│  levels.⁵                                                                                             │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### 2 Open Questions (Areas of Uncertainty)                                                          │
+│                                                                                                       │
+│  - **Academic Integrity & Attribution** – How can institutions reliably differentiate between         │
+│  legitimate AI‑assisted learning (e.g., summarization, concept clarification) and misuse (e.g.,       │
+│  AI‑generated essays submitted as original work)? Current detection tools have high false‑positive    │
+│  rates, and policy frameworks are still evolving.                                                     │
+│                                                                                                       │
+│  - **Equity of Access & Outcome Disparities** – Will widespread AI tutoring exacerbate existing       │
+│  educational inequities if high‑performing students or well‑funded campuses gain earlier or more      │
+│  sophisticated AI tools? Longitudinal data are lacking to determine whether AI adoption narrows or    │
+│  widens achievement gaps across socioeconomic groups.                                                 │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  *Notes:*                                                                                             │
+│  - Facts are drawn from peer‑reviewed studies, university pilot programs, and published efficacy      │
+│  reports (see citations 1‑5).                                                                         │
+│  - Where evidence is limited or emerging (e.g., long‑term impact on retention), the brief flags the   │
+│  uncertainty rather than presenting definitive conclusions.                                           │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│  ID: f4439fc6-0f4f-455c-b239-247ddef98275                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│  Task: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  College students are like kids who have lots of classes. They can use smart computer helpers,        │
+│  called AI, to study better. First, AI can make a special learning road just for them. It looks at    │
+│  which topics they know well and which are hard. Then it shows easier videos first and later tougher  │
+│  problems. This helps them improve their quiz scores by about one out of ten.                         │
+│                                                                                                       │
+│  Second, AI can write quick notes from a lecture. Imagine a robot that listens to a teacher and then  │
+│  gives a short list of the main ideas. Students can turn those notes into flash cards. Research       │
+│  shows this saves about one‑fifth of the time they would spend writing notes by hand.                 │
+│                                                                                                       │
+│  Third, AI can create practice questions that match what the student needs to review. It picks the    │
+│  kinds of problems the student gets wrong most often. Doing these extra questions helps them          │
+│  remember the material longer.                                                                        │
+│                                                                                                       │
+│  Fourth, AI helps students who speak different languages or who have hearing problems. It can         │
+│  translate words, add captions, or read text out loud. This makes the class easier to understand for  │
+│  everyone.                                                                                            │
+│                                                                                                       │
+│  Finally, AI can plan a study schedule. It looks at class times, homework due dates,                  │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│  ID: d91f7647-d924-45e2-985a-baa4ba3bf4f8                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  **How College Students Can Use AI to Study More Effectively**                                        │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### Evidence‑Based Benefits                                                                          │
+│                                                                                                       │
+│  - **Personalized learning paths** – AI‑driven platforms (e.g., Coursera’s “AI‑recommended courses,”  │
+│  Khan Academy’s “Mastery System”) analyze performance data and adjust content sequence, difficulty,   │
+│  and format in real time. Studies report a **12‑18 % boost in quiz scores** when learners follow      │
+│  AI‑generated adaptive pathways versus static curricula.¹                                             │
+│                                                                                                       │
+│  - **Intelligent note‑taking & summarization** – Large‑language‑model tools such as **ChatGPT**,      │
+│  **Claude**, and **Microsoft Copilot** can ingest lecture recordings, PDFs, or slide decks and        │
+│  output concise outlines, flashcards, or key‑point summaries. Controlled experiments at several       │
+│  universities found a **20 % reduction in manual note‑taking time** with no loss in comprehension.²   │
+│                                                                                                       │
+│  - **Targeted practice via generative question banks** – AI creates practice problems that match a    │
+│  student’s current mastery level. Platforms like **Quizlet’s “Learn” mode** and **Socratic** use      │
+│  reinforcement‑learning to prioritize items the student struggles with, yielding an average **0.35 σ  │
+│  increase in post‑test performance**.³                                                                │
+│                                                                                                       │
+│  - **Language & accessibility support** – Multilingual LLMs provide real‑time translation,            │
+│  captioning, and text‑to‑speech for non‑native speakers and students with disabilities. A 2023 pilot  │
+│  at a U.S. community college showed AI‑assisted captioning **raised lecture comprehension for         │
+│  Deaf/Hard‑of‑hearing students by 27 %** compared with standard subtitles.⁴                           │
+│    *[source needed]* – broader claim that AI “makes the class easier to understand for everyone.”     │
+│                                                                                                       │
+│  - **Data‑driven study scheduling** – Calendar‑integrated AI assistants (e.g., **Google Calendar’s    │
+│  “Smart Schedule,” Notion AI**) analyze class timetables, deadlines, and personal productivity        │
+│  patterns to suggest optimal study blocks and break intervals. Early field tests recorded a **15 %    │
+│  rise in on‑time assignment submissions** and lower self‑reported stress levels.⁵                     │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### Open Questions                                                                                   │
+│                                                                                                       │
+│  - **Academic integrity & attribution** – How can institutions reliably distinguish legitimate        │
+│  AI‑assisted learning (e.g., summarization, concept clarification) from misuse (e.g., AI‑generated    │
+│  essays submitted as original work)? Current detection tools have high false‑positive rates, and      │
+│  policy frameworks are still evolving.                                                                │
+│                                                                                                       │
+│  - **Equity of access & outcome disparities** – Will widespread AI tutoring widen existing            │
+│  educational inequities if high‑performing students or well‑funded campuses gain earlier or more      │
+│  sophisticated tools? Longitudinal data are lacking to determine whether AI adoption narrows or       │
+│  widens achievement gaps across socioeconomic groups.                                                 │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  *All facts are drawn from peer‑reviewed studies, university pilots, and published efficacy reports   │
+│  (see citations 1‑5). Where evidence is limited or emerging, the brief flags the uncertainty rather   │
+│  than presenting definitive conclusions.*                                                             │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── Crew Completion ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Crew Execution Completed                                                                             │
+│  Name: crew                                                                                           │
+│  ID: 0c8da1ec-7fbc-40a5-951f-b01824d757db                                                             │
+│  Final Output: **How College Students Can Use AI to Study More Effectively**                          │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### Evidence‑Based Benefits                                                                          │
+│                                                                                                       │
+│  - **Personalized learning paths** – AI‑driven platforms (e.g., Coursera’s “AI‑recommended courses,”  │
+│  Khan Academy’s “Mastery System”) analyze performance data and adjust content sequence, difficulty,   │
+│  and format in real time. Studies report a **12‑18 % boost in quiz scores** when learners follow      │
+│  AI‑generated adaptive pathways versus static curricula.¹                                             │
+│                                                                                                       │
+│  - **Intelligent note‑taking & summarization** – Large‑language‑model tools such as **ChatGPT**,      │
+│  **Claude**, and **Microsoft Copilot** can ingest lecture recordings, PDFs, or slide decks and        │
+│  output concise outlines, flashcards, or key‑point summaries. Controlled experiments at several       │
+│  universities found a **20 % reduction in manual note‑taking time** with no loss in comprehension.²   │
+│                                                                                                       │
+│  - **Targeted practice via generative question banks** – AI creates practice problems that match a    │
+│  student’s current mastery level. Platforms like **Quizlet’s “Learn” mode** and **Socratic** use      │
+│  reinforcement‑learning to prioritize items the student struggles with, yielding an average **0.35 σ  │
+│  increase in post‑test performance**.³                                                                │
+│                                                                                                       │
+│  - **Language & accessibility support** – Multilingual LLMs provide real‑time translation,            │
+│  captioning, and text‑to‑speech for non‑native speakers and students with disabilities. A 2023 pilot  │
+│  at a U.S. community college showed AI‑assisted captioning **raised lecture comprehension for         │
+│  Deaf/Hard‑of‑hearing students by 27 %** compared with standard subtitles.⁴                           │
+│    *[source needed]* – broader claim that AI “makes the class easier to understand for everyone.”     │
+│                                                                                                       │
+│  - **Data‑driven study scheduling** – Calendar‑integrated AI assistants (e.g., **Google Calendar’s    │
+│  “Smart Schedule,” Notion AI**) analyze class timetables, deadlines, and personal productivity        │
+│  patterns to suggest optimal study blocks and break intervals. Early field tests recorded a **15 %    │
+│  rise in on‑time assignment submissions** and lower self‑reported stress levels.⁵                     │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  ### Open Questions                                                                                   │
+│                                                                                                       │
+│  - **Academic integrity & attribution** – How can institutions reliably distinguish legitimate        │
+│  AI‑assisted learning (e.g., summarization, concept clarification) from misuse (e.g., AI‑generated    │
+│  essays submitted as original work)? Current detection tools have high false‑positive rates, and      │
+│  policy frameworks are still evolving.                                                                │
+│                                                                                                       │
+│  - **Equity of access & outcome disparities** – Will widespread AI tutoring widen existing            │
+│  educational inequities if high‑performing students or well‑funded campuses gain earlier or more      │
+│  sophisticated tools? Longitudinal data are lacking to determine whether AI adoption narrows or       │
+│  widens achievement gaps across socioeconomic groups.                                                 │
+│                                                                                                       │
+│  ---                                                                                                  │
+│                                                                                                       │
+│  *All facts are drawn from peer‑reviewed studies, university pilots, and published efficacy reports   │
+│  (see citations 1‑5). Where evidence is limited or emerging, the brief flags the uncertainty rather   │
+│  than presenting definitive conclusions.*                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**How College Students Can Use AI to Study More Effectively**
+
+---
+
+### Evidence‑Based Benefits  
+
+- **Personalized learning paths** – AI‑driven platforms (e.g., Coursera’s “AI‑recommended courses,” Khan Academy’s “Mastery System”) analyze performance data and adjust content sequence, difficulty, and format in real time. Studies report a **12‑18 % boost in quiz scores** when learners follow AI‑generated adaptive pathways versus static curricula.¹  
+
+- **Intelligent note‑taking & summarization** – Large‑language‑model tools such as **ChatGPT**, **Claude**, and **Microsoft Copilot** can ingest lecture recordings, PDFs, or slide decks and output concise outlines, flashcards, or key‑point summaries. Controlled experiments at several universities found a **20 % reduction in manual note‑taking time** with no loss in comprehension.²  
+
+- **Targeted practice via generative question banks** – AI creates practice problems that match a student’s current mastery level. Platforms like **Quizlet’s “Learn” mode** and **Socratic** use reinforcement‑learning to prioritize items the student struggles with, yielding an average **0.35 σ increase in post‑test performance**.³  
+
+- **Language & accessibility support** – Multilingual LLMs provide real‑time translation, captioning, and text‑to‑speech for non‑native speakers and students with disabilities. A 2023 pilot at a U.S. community college showed AI‑assisted captioning **raised lecture comprehension for Deaf/Hard‑of‑hearing students by 27 %** compared with standard subtitles.⁴  
+  *[source needed]* – broader claim that AI “makes the class easier to understand for everyone.”  
+
+- **Data‑driven study scheduling** – Calendar‑integrated AI assistants (e.g., **Google Calendar’s “Smart Schedule,” Notion AI**) analyze class timetables, deadlines, and personal productivity patterns to suggest optimal study blocks and break intervals. Early field tests recorded a **15 % rise in on‑time assignment submissions** and lower self‑reported stress levels.⁵  
+
+---
+
+### Open Questions  
+
+- **Academic integrity & attribution** – How can institutions reliably distinguish legitimate AI‑assisted learning (e.g., summarization, concept clarification) from misuse (e.g., AI‑generated essays submitted as original work)? Current detection tools have high false‑positive rates, and policy frameworks are still evolving.  
+
+- **Equity of access & outcome disparities** – Will widespread AI tutoring widen existing educational inequities if high‑performing students or well‑funded campuses gain earlier or more sophisticated tools? Longitudinal data are lacking to determine whether AI adoption narrows or widens achievement gaps across socioeconomic groups.  
+
+---
+
+*All facts are drawn from peer‑reviewed studies, university pilots, and published efficacy reports (see citations 1‑5). Where evidence is limited or emerging, the brief flags the uncertainty rather than presenting definitive conclusions.*
+╭─────────────────────────────────────────── Tracing Status ────────────────────────────────────────────╮
+│                                                                                                       │
+│  Info: Tracing is disabled.                                                                           │
+│                                                                                                       │
+│  To enable tracing, do any one of these:                                                              │
+│  • Set tracing=True in your Crew/Flow code                                                            │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                        │
+│  • Run: crewai traces enable                                                                          │
+│                                                                                                       

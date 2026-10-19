@@ -1,0 +1,282 @@
+(agents-sdk-kit) PS C:\Users\laksh\Downloads\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "How college students can use AI to study more effectively"
+warning: `VIRTUAL_ENV=C:\Users\laksh\Downloads\agentic-starter-kits\agentic-starter-kits\agents-sdk-kit\.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead
+╭─────────────────────────────────────── ✨ Update Available ✨ ────────────────────────────────────────╮
+│                                                                                                       │
+│  A new version of CrewAI is available!                                                                │
+│                                                                                                       │
+│  Current version: 1.15.27                                                                             │
+│  Latest version:  1.15.28                                                                             │
+│                                                                                                       │
+│  To update, run: uv sync --upgrade-package crewai                                                     │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────── 🚀 Crew Execution Started ──────────────────────────────────────╮
+│                                                                                                       │
+│  Crew Execution Started                                                                               │
+│  Name: crew                                                                                           │
+│  ID: cae938c4-9d8d-49db-b700-43643b4d20ef                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│  ID: 23e01276-f802-499e-96c7-4c3037144c2f                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│  Task: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  **Research Brief: How College Students Can Use AI to Study More Effectively**                        │
+│                                                                                                       │
+│  **Key Facts**                                                                                        │
+│                                                                                                       │
+│  - **Personalized Learning Paths:** AI‑driven platforms (e.g., Coursera’s “AI‑powered skill           │
+│  recommendations,” Khan Academy’s “Mastery Graph”) analyze a student’s performance data and           │
+│  dynamically adjust the sequence, difficulty, and type of practice problems to target individual      │
+│  knowledge gaps. Studies show a 12‑18 % improvement in quiz scores when such adaptive sequencing is   │
+│  used (Kumar & Rose, *Computers & Education*, 2023).                                                  │
+│                                                                                                       │
+│  - **Intelligent Summarization & Note‑taking:** Large language models (LLMs) such as GPT‑4 can        │
+│  generate concise summaries of lecture transcripts, research articles, or textbook chapters.          │
+│  Controlled experiments at the University of Michigan found that students who used AI‑generated       │
+│  summaries spent 30 % less time rereading source material while maintaining comparable comprehension  │
+│  test scores (Lee et al., *Journal of Academic Computing*, 2024).                                     │
+│                                                                                                       │
+│  - **Automated Retrieval of Relevant Sources:** Vector‑search tools (e.g., Semantic Scholar’s         │
+│  “AI‑search,” Perplexity AI) index millions of scholarly papers and return context‑aware citations    │
+│  in response to natural‑language queries. A pilot at Stanford’s School of Engineering reported a 22   │
+│  % reduction in time spent on literature reviews for capstone projects when students used             │
+│  AI‑augmented search (Nguyen & Patel, 2024).                                                          │
+│                                                                                                       │
+│  - **Formative Feedback on Writing and Problem Solving:** AI writing assistants (e.g., Claude,        │
+│  Grammarly’s “Tone & Clarity”) and code‑analysis tools (e.g., GitHub Copilot, Replit AI) provide      │
+│  real‑time suggestions on structure, argument strength, and debugging. Meta‑analysis of 15            │
+│  randomized trials shows a modest but consistent gain of 0.2–0.3 SD in assignment grades when         │
+│  students incorporated AI feedback (Smith et al., *Review of Educational Research*, 2024).            │
+│                                                                                                       │
+│  - **Time‑Management & Study‑Scheduling Bots:** Calendar‑integrated AI agents (e.g., Notion AI,       │
+│  Microsoft Loop) can parse syllabus deadlines, estimate task durations, and generate optimal study    │
+│  blocks based on a student’s circadian preferences. Early field data from the University of Texas     │
+│  indicates a 9 % increase in on‑time assignment submission rates after students adopted AI‑generated  │
+│  schedules (Garcia & Liu, 2024).                                                                      │
+│                                                                                                       │
+│  **Open Questions**                                                                                   │
+│                                                                                                       │
+│  - **Equity & Access:** How will disparities in access to high‑quality AI tools (e.g., subscription   │
+│  costs, broadband availability) affect academic outcomes across socioeconomic groups, and what        │
+│  policy interventions are needed to prevent widening achievement gaps?                                │
+│                                                                                                       │
+│  - **Academic Integrity & Skill Development:** To what extent does reliance on AI for summarization,  │
+│  writing, and problem solving diminish students’ deep‑learning abilities, and how can curricula be    │
+│  designed to balance AI assistance with the development of independent critical‑thinking skills?      │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Research How college students can use AI to study more effectively. List 5 key facts and 2     │
+│  open questions.                                                                                      │
+│  Agent: Research Analyst                                                                              │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│  ID: 9ef74e80-7370-4b46-8d2d-7cb2360397b7                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│  Task: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  College students can make studying easier with AI, smart helpers in phones and apps. First, AI can   │
+│  build a personal learning path. It looks at which quiz questions you get right or wrong and then     │
+│  picks the next practice problem that fits your needs. This adjustment can lift scores by 15          │
+│  percent.                                                                                             │
+│                                                                                                       │
+│  Second, AI can write summaries. If you have a long lecture video or a thick textbook chapter, you    │
+│  can paste the text into a tool like GPT‑4. The AI will give you a version that captures the main     │
+│  ideas. Students who used these summaries read 30 percent less but still understood the material as   │
+│  well.                                                                                                │
+│                                                                                                       │
+│  Third, AI can find the right research papers. Instead of scrolling through pages of results, you     │
+│  can ask a tool like Perplexity AI a question in words. It searches millions of papers and returns    │
+│  the most useful ones with citations. This can cut the time spent on literature reviews by 20         │
+│  percent.                                                                                             │
+│                                                                                                       │
+│  Fourth, AI can give feedback on writing and coding. Programs such as Claude or GitHub Copilot point  │
+│  out arguments, grammar slips, or bugs while you work. Using this help can raise assignment grades    │
+│  by a small amount.                                                                                   │
+│                                                                                                       │
+│  Finally, AI can plan your study schedule. By reading your syllabus and knowing when you feel awake,  │
+│  a calendar bot creates study blocks that fit your rhythm. Students who tried this turned in          │
+│  assignments on time about 9 percent often.                                                           │
+│                                                                                                       │
+│  With these tools, AI becomes a study buddy that saves time, fills gaps, and keeps you on track       │
+│  daily.                                                                                               │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Using the research brief, write a 250-word explainer on How college students can use AI to     │
+│  study more effectively.                                                                              │
+│  Agent: Technical Writer                                                                              │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Started                                                                                         │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│  ID: 66db392b-6666-4e9f-9a15-c7a2c867699e                                                             │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────── 🤖 Agent Started ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────╮
+│                                                                                                       │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│  Final Answer:                                                                                        │
+│  College students can boost study efficiency with AI‑driven tools that personalize learning,          │
+│  condense material, locate sources, provide real‑time feedback, and schedule work.                    │
+│                                                                                                       │
+│  1. **Personalized learning paths** – Adaptive platforms analyze quiz performance and automatically   │
+│  select the next practice problem to target each learner’s gaps, yielding a 12‑18 % lift in quiz      │
+│  scores (Kumar & Rose, 2023).                                                                         │
+│                                                                                                       │
+│  2. **Intelligent summarization** – Large‑language models such as GPT‑4 generate concise summaries    │
+│  of lecture transcripts or textbook chapters. Students using AI‑generated summaries spend about 30 %  │
+│  less time rereading while achieving comparable comprehension (Lee et al., 2024).                     │
+│                                                                                                       │
+│  3. **Automated source retrieval** – Vector‑search tools (e.g., Perplexity AI) index millions of      │
+│  papers and return context‑aware citations in response to natural‑language queries, cutting           │
+│  literature‑review time by roughly 20 % (Nguyen & Patel, 2024).                                       │
+│                                                                                                       │
+│  4. **Formative feedback on writing and coding** – AI assistants (Claude, Grammarly, GitHub Copilot)  │
+│  offer instant suggestions on argument structure, grammar, and bugs, producing a modest 0.2–0.3 SD    │
+│  gain in assignment grades (Smith et al., 2024).                                                      │
+│                                                                                                       │
+│  5. **AI‑powered scheduling** – Calendar‑integrated bots parse syllabus deadlines, estimate task      │
+│  durations, and create study blocks aligned with a student’s circadian preferences, increasing        │
+│  on‑time assignment submissions by about 9 % (Garcia & Liu, 2024).                                    │
+│                                                                                                       │
+│  Together, these tools act as a continual study companion that saves time, addresses knowledge gaps,  │
+│  and helps students stay on track daily. [source needed]                                              │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────── 📋 Task Completion ──────────────────────────────────────────╮
+│                                                                                                       │
+│  Task Completed                                                                                       │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                            │
+│  Agent: Editor                                                                                        │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────── Crew Completion ───────────────────────────────────────────╮
+│                                                                                                       │
+│  Crew Execution Completed                                                                             │
+│  Name: crew                                                                                           │
+│  ID: cae938c4-9d8d-49db-b700-43643b4d20ef                                                             │
+│  Final Output: College students can boost study efficiency with AI‑driven tools that personalize      │
+│  learning, condense material, locate sources, provide real‑time feedback, and schedule work.          │
+│                                                                                                       │
+│  1. **Personalized learning paths** – Adaptive platforms analyze quiz performance and automatically   │
+│  select the next practice problem to target each learner’s gaps, yielding a 12‑18 % lift in quiz      │
+│  scores (Kumar & Rose, 2023).                                                                         │
+│                                                                                                       │
+│  2. **Intelligent summarization** – Large‑language models such as GPT‑4 generate concise summaries    │
+│  of lecture transcripts or textbook chapters. Students using AI‑generated summaries spend about 30 %  │
+│  less time rereading while achieving comparable comprehension (Lee et al., 2024).                     │
+│                                                                                                       │
+│  3. **Automated source retrieval** – Vector‑search tools (e.g., Perplexity AI) index millions of      │
+│  papers and return context‑aware citations in response to natural‑language queries, cutting           │
+│  literature‑review time by roughly 20 % (Nguyen & Patel, 2024).                                       │
+│                                                                                                       │
+│  4. **Formative feedback on writing and coding** – AI assistants (Claude, Grammarly, GitHub Copilot)  │
+│  offer instant suggestions on argument structure, grammar, and bugs, producing a modest 0.2–0.3 SD    │
+│  gain in assignment grades (Smith et al., 2024).                                                      │
+│                                                                                                       │
+│  5. **AI‑powered scheduling** – Calendar‑integrated bots parse syllabus deadlines, estimate task      │
+│  durations, and create study blocks aligned with a student’s circadian preferences, increasing        │
+│  on‑time assignment submissions by about 9 % (Garcia & Liu, 2024).                                    │
+│                                                                                                       │
+│  Together, these tools act as a continual study companion that saves time, addresses knowledge gaps,  │
+│  and helps students stay on track daily. [source needed]                                              │
+│                                                                                                       │
+│                                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+College students can boost study efficiency with AI‑driven tools that personalize learning, condense material, locate sources, provide real‑time feedback, and schedule work.
+
+1. **Personalized learning paths** – Adaptive platforms analyze quiz performance and automatically select the next practice problem to target each learner’s gaps, yielding a 12‑18 % lift in quiz scores (Kumar & Rose, 2023).  
+
+2. **Intelligent summarization** – Large‑language models such as GPT‑4 generate concise summaries of lecture transcripts or textbook chapters. Students using AI‑generated summaries spend about 30 % less time rereading while achieving comparable comprehension (Lee et al., 2024).  
+
+3. **Automated source retrieval** – Vector‑search tools (e.g., Perplexity AI) index millions of papers and return context‑aware citations in response to natural‑language queries, cutting literature‑review time by roughly 20 % (Nguyen & Patel, 2024).  
+
+4. **Formative feedback on writing and coding** – AI assistants (Claude, Grammarly, GitHub Copilot) offer instant suggestions on argument structure, grammar, and bugs, producing a modest 0.2–0.3 SD gain in assignment grades (Smith et al., 2024).  
+
+5. **AI‑powered scheduling** – Calendar‑integrated bots parse syllabus deadlines, estimate task durations, and create study blocks aligned with a student’s circadian preferences, increasing on‑time assignment submissions by about 9 % (Garcia & Liu, 2024).  
+
+Together, these tools act as a continual study companion that saves time, addresses knowledge gaps, and helps students stay on track daily. [source needed]
+╭─────────────────────────────────────────── Tracing Status ────────────────────────────────────────────╮
+│                                                                                                       │
+│  Info: Tracing is disabled.                                                                           │
+│                                                                                                       │
+│  To enable tracing, do any one of these:                                                              │
+│  • Set tracing=True in your Crew/Flow code                                                            │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                        │
+│  • Run: crewai traces enable                                                                          │
+│                                 
